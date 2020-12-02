@@ -17,8 +17,7 @@ class PasswordPhilosophy extends AdventOfCodeTaskSolution {
     val pattern = """(\d+)-(\d+) (\w): (\w+)""".r
 
     lines.map {
-      case pattern(min, max, character, password) =>
-        (PasswordPolicy(min.toInt, max.toInt, character.head), password)
+      case pattern(min, max, character, password) => (PasswordPolicy(min.toInt, max.toInt, character.head), password)
     }
   }
 }
