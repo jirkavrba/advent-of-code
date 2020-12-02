@@ -3,7 +3,6 @@ package dev.vrba.adventofcode.day1
 import dev.vrba.adventofcode.helpers.ResourceLoader
 import dev.vrba.adventofcode.{AdventOfCodeTask, AdventOfCodeTaskSolution, FirstPart, SecondPart, TaskPart}
 
-import scala.Option
 import scala.collection.mutable
 
 @AdventOfCodeTask(2019, 1)
@@ -31,15 +30,14 @@ class ReportRepair extends AdventOfCodeTaskSolution {
   }
 
   def findMatchingTriple(set: Set[Int], target: Int): Option[(Int, Int, Int)] = {
-    set.zipWithIndex.foreach(entry => {
-      val (value, index) = entry
+    set.zipWithIndex.foreach { case(value, index) =>
       val subset = set.drop(index)
 
       findMatchingTuple(subset, target - value) match {
         case Some(result) => return Some(value, result._1, result._2)
         case None =>
       }
-    })
+    }
 
     None
   }
