@@ -10,5 +10,5 @@ case object FirstPart extends TaskPart
 case object SecondPart extends TaskPart
 
 trait AdventOfCodeTaskSolution {
-  def execute(part: TaskPart): Unit
+  def execute(part: TaskPart = FirstPart): Unit
 }

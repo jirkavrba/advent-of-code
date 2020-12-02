@@ -7,7 +7,7 @@ import scala.collection.mutable
 
 @AdventOfCodeTask(2019, 1)
 class ReportRepair extends AdventOfCodeTaskSolution {
-  override def execute(part: TaskPart): Unit = {
+  override def execute(part: TaskPart = FirstPart): Unit = {
     val input = ResourceLoader.readResourceLines("/2020/01/input")
       .map(_.toInt)
       .toSet
