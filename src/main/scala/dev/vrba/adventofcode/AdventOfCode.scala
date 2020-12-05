@@ -5,6 +5,7 @@ object AdventOfCode {
     // 1. 12. 2020 new dev.vrba.adventofcode.day1.ReportRepair().execute()
     // 2. 12. 2020 new dev.vrba.adventofcode.day2.PasswordPhilosophy().execute()
     // 3. 12. 2020 new dev.vrba.adventofcode.day3.TobogganTrajectory().execute()
-     new dev.vrba.adventofcode.day4.PassportProcessing().execute(SecondPart)
+    // 4. 12. 2020 new dev.vrba.adventofcode.day4.PassportProcessing().execute()
+    // 5. 12. 2020 new dev.vrba.adventofcode.day5.BinaryBoarding().execute()
   }
 }
