@@ -8,6 +8,6 @@ object AdventOfCode {
     // 4. 12. 2020 new dev.vrba.adventofcode.day4.PassportProcessing().execute()
     // 5. 12. 2020 new dev.vrba.adventofcode.day5.BinaryBoarding().execute()
     // 6. 12. 2020 new dev.vrba.adventofcode.day6.CustomCustoms().execute()
-    new dev.vrba.adventofcode.day7.HandyHaversacks().execute()
+    // 7. 12. 2020 new dev.vrba.adventofcode.day7.HandyHaversacks().execute()
   }
 }
