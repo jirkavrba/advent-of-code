@@ -9,5 +9,6 @@ object AdventOfCode {
     // 5. 12. 2020 new dev.vrba.adventofcode.day5.BinaryBoarding().execute()
     // 6. 12. 2020 new dev.vrba.adventofcode.day6.CustomCustoms().execute()
     // 7. 12. 2020 new dev.vrba.adventofcode.day7.HandyHaversacks().execute()
+    // 8. 12. 2020 new dev.vrba.adventofcode.day8.HandheldHalting().execute()
   }
 }
