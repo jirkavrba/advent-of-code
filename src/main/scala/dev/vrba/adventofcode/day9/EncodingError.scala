@@ -25,6 +25,7 @@ class EncodingError extends AdventOfCodeTaskSolution {
       .last
   }
 
+  // TODO: Improve this algorithm by using optimized sums
   private def contiguousSumRange(numbers: Seq[Long], sum: Long): Seq[Long] = {
     val sumNumbers = numbers.scanLeft(0L)(_ + _)
     sumNumbers
