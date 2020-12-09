@@ -10,5 +10,6 @@ object AdventOfCode {
     // 6. 12. 2020 new dev.vrba.adventofcode.day6.CustomCustoms().execute()
     // 7. 12. 2020 new dev.vrba.adventofcode.day7.HandyHaversacks().execute()
     // 8. 12. 2020 new dev.vrba.adventofcode.day8.HandheldHalting().execute()
+    // 9. 12. 2020 new dev.vrba.adventofcode.day9.EncodingError().execute()
   }
 }
