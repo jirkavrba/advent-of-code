@@ -1,5 +1,6 @@
 package dev.vrba.adventofcode
 
+
 object AdventOfCode {
   def main(args: Array[String]): Unit = {
     // 1. 12. 2020 new dev.vrba.adventofcode.day1.ReportRepair().execute()
@@ -11,5 +12,6 @@ object AdventOfCode {
     // 7. 12. 2020 new dev.vrba.adventofcode.day7.HandyHaversacks().execute()
     // 8. 12. 2020 new dev.vrba.adventofcode.day8.HandheldHalting().execute()
     // 9. 12. 2020 new dev.vrba.adventofcode.day9.EncodingError().execute()
+    // 10. 12. 2020 new dev.vrba.adventofcode.day10.AdapterArray().execute()
   }
 }
